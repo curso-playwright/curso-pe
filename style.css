@@ -68,9 +68,9 @@
   }
 
   a.btn-cesta {
-  background-color: #6a00ff;
-  color: white;
-  font-size: 14px;
+  background-color: rgb(250 204 21);
+  color: black;
+  font-size: 16px;
   font-weight: bold;
   padding: 10px 10px;
   border-radius: 8px;
@@ -78,7 +78,7 @@
   transition: background-color 0.3s ease;
   margin-left: auto;
   margin-right: 26px;
-  width: 210px;
+  width: 290px;
   height: 40px;
   text-align: center;
   text-decoration: none;
@@ -87,7 +87,7 @@
   justify-content: center;
 }
   .btn-cesta:hover {
-    background-color: #4e00c2;
+    background-color: rgb(250 204 21);
   }
 }
 
@@ -289,13 +289,13 @@
 }
 
 .faq {
-  max-width: 700px;
+  margin-top: 20px;
   margin: 0 auto;
   text-align: left;
 }
 
 .faq-item {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 3px solid #ccc;
   margin-bottom: 1rem;
 }
 
@@ -305,6 +305,7 @@
   justify-content: space-between;
   cursor: pointer;
   padding: 0.8rem;
+  height: 50px;
   font-weight: bold;
   background: #f9f9f9;
   transition: background 0.3s ease;
@@ -323,7 +324,7 @@
 .faq-answer {
   display: none;
   padding: 0.5rem 1rem;
-  font-size: 0.9rem;
+  font-size: 19px;
   color: #555;
 }
 
@@ -647,7 +648,8 @@ footer p{
   font-weight: bold;
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  font-size: 0.95rem;
+  width: 320px;
+  font-size: 1.3rem;
   flex: 0 0 auto;
 }
 
@@ -698,14 +700,14 @@ footer p{
 
 .boton-comprar {
   padding: 0.8rem 1.6rem;
-  background-color:#6a1b9a ;
+  background-color: rgb(250 204 21);
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   text-decoration: none;
   border-radius: 6px;
   transition: all 0.3s ease;
-  color: white;
+  color: #1a1a1a;
 }
 
 .oferta-especial {
@@ -1041,7 +1043,7 @@ footer p{
 .docente-lista li {
   margin-bottom: 0.8rem;
   font-size: 1rem;
-  display: flex;
+
   align-items: flex-start;
   margin-top: -10px;
   text-align: justify;
@@ -1053,6 +1055,7 @@ footer p{
 }
 .text {
   font-family: sans-serif;
+  font-size: 22px;
 }
 
 .testimonios {
@@ -1126,6 +1129,31 @@ button.prev {
 button.next {
   right: 10px;
 }
+#contador {
+  text-align: center;
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#contador p {
+  font-size: 1rem;
+  color: #ff4b2b;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+#tiempo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff4b2b;
+  background: #fff3f0;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 75, 43, 0.2);
+  letter-spacing: 2px;
+}
+
 
 @media (max-width: 600px) {
   .slide p {
